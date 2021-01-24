@@ -1,21 +1,21 @@
-### Data
+# Data
 
 
 Air Travel Consumer Report Period From June 2003 to October 2020 
 
-### Airline Delay Causes Database:
+## Airline Delay Causes Database:
 
 Airport delay statistics (Bureau of Transportation Statistics):
 Dataset obtained from: [Dataset link](https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp)
 
-#### carrier information:
+### carrier information:
 
 * carrier: Airline code.
 * carrier_name: Airline name.
 * airport: Airport code.
 * airport_name: Airport name.
 
-#### Airport statistics:
+### Airport statistics:
 
 * arr_flights: Number of flights which arrived at the airport.
 * arr_del15: Number of flights delayed (>= 15minutes late).
@@ -33,7 +33,7 @@ Dataset obtained from: [Dataset link](https://www.transtats.bts.gov/OT_Delay/OT_
 * security_delay: Total time (minutes) of delayed flights due to security.
 * late_aircraft_delay: Total time (minutes) of delayed flights due to a previous flight using the same aircraft being late.
 
-### Airport Database:
+### Airport Database :
 
 Dataset obtained from:
 [Aviation Support Tables](https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0)
@@ -82,7 +82,7 @@ Such delays include delays due to weather conditions at airports and en route (W
 
 ## flight information
 
-#### Diverted Flight
+### Diverted Flight
 
 A diverted flight is one that has been routed from its original arrival destination to a new, typically temporary, arrival destination. The leg of the flight that is routed back to the original arrival destination is called the recovery leg.
 
